@@ -10,6 +10,7 @@ code or history: confirm or delete. `Hint:` is a working note for Claude.
 ## Layout
 
 - `lua/genja-util/float.lua`: `scratch(lines)`, `open(buf, opts)` (centred rounded float), `close(win)`.
+- `lua/genja-util/text.lua`: `uuid()` (v4, for `claude --session-id`), `fenced(code, lang)`, `visual_lines()`.
 
 ## Decisions
 
